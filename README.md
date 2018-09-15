@@ -54,6 +54,7 @@ Some layout with RecyclerView and OverflowPagerIndicator
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal|bottom"
+      app:dots_xxx
       />
 
 </FrameLayout>
@@ -87,6 +88,16 @@ or even some custom logic which will call:
 
 ```java
 OverflowPagerIndicator#onPageSelected(int position)
+```
+
+### Customization Example
+```xml
+app:dots_fill_color="#ff0000"
+app:dots_stroke_color="#000000"
+app:dots_max_count="7"
+app:dots_size="5dp"
+app:dots_stroke_width="2dp"
+app:dots_margin="2dp"
 ```
 
 ### Changelog

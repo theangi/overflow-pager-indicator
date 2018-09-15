@@ -2,7 +2,6 @@
 <resources>
 
 	<color name="dot_fill">#EEFFFFFF</color>
-
 	<color name="dot_stroke">#99CCCCCC</color>
 
 </resources>

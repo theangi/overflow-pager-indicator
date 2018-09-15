@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverflowPagerIndicator">
+
+        <attr name="dots_max_count" format="integer"/>
+        <attr name="dots_size" format="dimension"/>
+        <attr name="dots_margin" format="dimension"/>
+
+        <attr name="dots_fill_color" format="string"/>
+        <attr name="dots_stroke_color" format="string"/>
+        <attr name="dots_stroke_width" format="dimension"/>
+    </declare-styleable>
+</resources>
